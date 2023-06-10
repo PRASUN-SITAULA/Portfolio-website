@@ -1,0 +1,33 @@
+.hero-banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    
+}
+
+.hero-banner div{
+    background-color: rgb(15, 22, 22);
+    height: 500px;
+    width: 70%;
+    opacity: 0.8;
+    border-radius: 30px;
+}
+
+
+.info-text{
+    margin-left: 20px;
+    padding: 10px;
+
+}
+
+.info-text p{
+    font-size: 50px;
+    color: #ffffff;
+}
+
+.my-name{
+    background: -webkit-linear-gradient(red, blue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
