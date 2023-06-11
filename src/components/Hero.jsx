@@ -10,6 +10,9 @@ export default function Hero() {
           <p>Hello, My name is</p>
           <p className='my-name'>Prasun Sitaula</p>
         </div>
+        <div className='profile-image'>
+          
+        </div>
       </div>
     </div>
   )
