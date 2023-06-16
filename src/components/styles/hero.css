@@ -2,24 +2,39 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 70px;
-    
 }
 
 .hero-banner div{
-    /* position: absolute; */
+    position: relative;
     background-color: rgb(15, 22, 22);
     height: 500px;
     width: 70%;
     opacity: 0.8;
     border-radius: 30px;
-    top: 100px;
+    top: 50px;
 }
 
 
-.info-text{
+.hero-banner .profile-image{
+    position: absolute;
+    height: 200px;
+    left: 700px;
+    top: 150px;
+    background-color: aqua;
+    border-radius: 50%;
+    width: 200px;  
+}
+
+
+.profile-image img{
+    width: 200px;
+    height: 200px;
+}
+.hero-banner .info-text{
     margin-left: 20px;
     padding: 10px;
+    width: 400px;
+    height: 200px;
 
 }
 
@@ -35,12 +50,5 @@
   -webkit-text-fill-color: transparent;
 }
 
-.profile-image{
-    /* position: relative; */
-    width: 100px;
-    height: 20px;
-    left: 100px;
-    top: 200px;
-    background-color: aqua;
-}
+
 

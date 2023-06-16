@@ -1,5 +1,7 @@
 import React from 'react'
 import './styles/hero.css'
+import profile from '../assets/images/softaware fellowship badge.png'
+
 
 
 export default function Hero() {
@@ -11,7 +13,7 @@ export default function Hero() {
           <p className='my-name'>Prasun Sitaula</p>
         </div>
         <div className='profile-image'>
-          
+          <img src={profile} alt='profile-picture'/>
         </div>
       </div>
     </div>
