@@ -29,6 +29,8 @@ li{
   color: white;
 }
 
+
+/* adding hover animation to navbar */
 .navbar a:after{
   content: "";
   position: absolute;
@@ -39,7 +41,6 @@ li{
   background-color: aliceblue;
   transition: all 300ms ease-in-out;
 }
-
 
 
 .navbar a:hover:after{

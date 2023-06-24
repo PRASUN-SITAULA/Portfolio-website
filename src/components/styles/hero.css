@@ -1,4 +1,5 @@
 .hero-banner{
+   
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,30 +19,29 @@
 .hero-banner .profile-image{
     position: absolute;
     height: 200px;
-    left: 700px;
-    top: 150px;
-    background-color: aqua;
-    border-radius: 50%;
+    right: 120px;
+    top: 100px;
     width: 200px;  
 }
 
-
 .profile-image img{
-    width: 200px;
-    height: 200px;
+    border-radius: 50%;
+    max-width: 100%;
+    max-height: 100%;
+
 }
 .hero-banner .info-text{
+    position: absolute;
     margin-left: 20px;
     padding: 10px;
-    width: 400px;
-    height: 200px;
-
+    width: 600px;
+    height: 400px;
 }
 
 .info-text p{
     font-size: 50px;
+    margin: 10px;
     color: #ffffff;
-
 }
 
 .my-name{

@@ -1,6 +1,6 @@
 import React from 'react'
 import './styles/hero.css'
-import profile from '../assets/images/softaware fellowship badge.png'
+import profile from '../assets/images/profile.jpg'
 
 
 
@@ -16,7 +16,9 @@ export default function Hero() {
         <div className='profile-image'>
           <img src={profile} alt='profile-picture'/>
         </div>
+        
       </div>
+        
     </div>
   )
 }
