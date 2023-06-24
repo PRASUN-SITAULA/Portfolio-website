@@ -11,6 +11,7 @@ export default function Hero() {
         <div className='info-text'>
           <p>Hello, My name is</p>
           <p className='my-name'>Prasun Sitaula</p>
+          <p>I am a Fullstack Developer</p>
         </div>
         <div className='profile-image'>
           <img src={profile} alt='profile-picture'/>

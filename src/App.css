@@ -24,11 +24,24 @@ li{
 }
 
 .navbar a{
+  position: relative;
   text-decoration: none;
-  color: white
+  color: white;
 }
 
-.navbar a:hover{
-  margin-bottom: 10px;
-  border-bottom: 4px solid white;
+.navbar a:after{
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 3px;
+  left: 0;
+  bottom: -10px;
+  background-color: aliceblue;
+  transition: all 300ms ease-in-out;
+}
+
+
+
+.navbar a:hover:after{
+    width: 100%;
 }

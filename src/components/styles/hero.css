@@ -45,6 +45,7 @@
 }
 
 .my-name{
+    text-transform:capitalize;
  background: -webkit-linear-gradient(red, blue);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
