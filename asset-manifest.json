@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.05a3068e.css",
-    "main.js": "/static/js/main.d400f317.js",
+    "main.css": "/static/css/main.d4bfb2ee.css",
+    "main.js": "/static/js/main.e2347236.js",
     "static/js/787.5809834d.chunk.js": "/static/js/787.5809834d.chunk.js",
     "static/media/third.jpg": "/static/media/third.89c4403a2c7621ba7873.jpg",
-    "static/media/softaware fellowship badge.png": "/static/media/softaware fellowship badge.40bdc20271d33aa04dae.png",
+    "static/media/profile.jpg": "/static/media/profile.9ed4b07ac4fb266b93ee.jpg",
     "index.html": "/index.html",
-    "main.05a3068e.css.map": "/static/css/main.05a3068e.css.map",
-    "main.d400f317.js.map": "/static/js/main.d400f317.js.map",
+    "main.d4bfb2ee.css.map": "/static/css/main.d4bfb2ee.css.map",
+    "main.e2347236.js.map": "/static/js/main.e2347236.js.map",
     "787.5809834d.chunk.js.map": "/static/js/787.5809834d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.05a3068e.css",
-    "static/js/main.d400f317.js"
+    "static/css/main.d4bfb2ee.css",
+    "static/js/main.e2347236.js"
   ]
 }
